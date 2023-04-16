@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+
+    <title>Simple Formulaire HTML</title>
+    <meta charset="utf-8"> 
+  </head>
+  <body>
+  <h1>Formulaire d'inscription</h1>
+<form action="traitement.php" method="get" >
+<fieldset>
+    <legend>Formulaire d'inscription</legend>
+	<table><tr><td>
+     <label for="nom">Nom</label></td><td>
+  <input type="texte" name="nom" id="nom"> </td></tr>
+  <tr><td>
+  <label for="nom"> Prénom</label></td><td>
+  <input type="texte" name="nom" id="nom"></td></tr>
+  <tr><td>
+    <label for="nom"> CIN</label></td><td>
+  <input type="texte" name="nom" id="nom" size="30"></td></tr>
+  <tr><td>Sexe</td>
+<td><input type="radio" name="Sexe" value="femme"/>
+<label for="femme">femme</label>
+<input type="radio" name="Sexe" value="homme"/>
+<label for="homme">homme</label></td></tr>
+<tr><td><label for="dateDeNaissance">Date de naissance</label></td>
+<td><input type="date" id="dateDeNaissance" name="dateDeNaissance"></td>
+</tr>
+<tr><td><label for="age">Age</label></td><td>
+ <input type="texte" name="age" id="age"></td></tr>
+ <tr><td>Address</td>
+<td><textarea rows=3 cols=25>
+Elgolaa/Douz/kébili
+</textarea></td></tr>
+<tr>
+<td><label for="pays"> ville</label></td>
+<td><select name="pays" id="pays">
+<option value="Sfax">Kébili</option>
+<option value="Sfax">Sfax</option>
+<option value="Tunis">Tunis</option>
+<option value="Sousse">Sousse</option>
+</td></tr>
+ <tr><td>
+  <label for="Telephone"> Telephone</label></td><td>
+  <input type="texte" name="Telephone" id="Telephone"></td></tr>
+ <tr><td>
+  <label for="Email"> Email</label></td><td>
+  <input type="texte" name="Email" id="Email"></td></tr>
+   <tr><td>
+  <label for="Email"> Site Web</label></td><td>
+  <input type="texte" name="SiteWeb" id="SiteWeb"></td></tr>
+    <tr><td>
+  <label for="Email"> Ajoutez votre photo</label></td><td>
+   <input type ="file" value={file}/></td></tr>
+  <tr><td>
+  <label for="Email">Choisisser le couleur <br/>de <br/>votre carte d'etudiant</label></td><td>
+ <input type="color" value="#fad345" name="textcolor"></td></tr>
+  <tr><td></td><td><input type="submit" value="Ajouter"/>
+<input type="reset" value="Effacer" /></td></tr>
+ </table>
+</fieldset>
+</form> 
+ </body>
+</html>
